@@ -1,0 +1,19 @@
+{
+  "name": "exersize_one",
+  "version": "1.0.0",
+  "description": "Exersize one npm",
+  "main": "exercise_one.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jswizards/Homework.git"
+  },
+  "author": "Alex Noonan <amnoonann@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jswizards/Homework/issues"
+  },
+  "homepage": "https://github.com/jswizards/Homework#readme"
+}
