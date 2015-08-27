@@ -1,5 +1,4 @@
 var oReq = new XMLHttpRequest();
-oReq.onreadystatechange = weather;
 
 // Current San Francisco Weather
 var url = "http://api.openweathermap.org/data/2.5/weather?id=5391959";
@@ -7,10 +6,10 @@ var url = "http://api.openweathermap.org/data/2.5/weather?id=5391959";
 // Otherwise, an error will probably occur. Don't worry about it.
 
 
-oRep.open('GET', url);
-oRep.send();
+oReq.open('GET', url);
+oReq.send();
 
-oReq.weather = function () {
+var weather = function () {
 	if (oReq.weather.id === 802) {
 		console.log("Oh snap, it might rain.");
 	}
